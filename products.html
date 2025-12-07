@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Python Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .product-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .product-title {
+            color: #2c3e50;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .price {
+            color: #27ae60;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .rating {
+            color: #f39c12;
+            margin: 10px 0;
+        }
+        .category {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        .description {
+            color: #666;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+        .stock {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .stock.low {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>TechStore - Python Programming Books</h1>
+        <p>Your one-stop shop for Python learning resources</p>
+    </div>
+
+    <div class="product-card" data-product-id="101">
+        <h2 class="product-title">Python Crash Course, 3rd Edition</h2>
+        <div class="price">$39.99</div>
+        <div class="rating">★★★★★ (4.8/5)</div>
+        <span class="category">Beginner</span>
+        <span class="category">Projects</span>
+        <p class="description">
+            A hands-on, project-based introduction to programming. This book teaches you the basics 
+            through practical projects like games, data visualization, and web applications.
+        </p>
+        <p class="stock">In Stock: 15 units</p>
+    </div>
+
+    <div class="product-card" data-product-id="102">
+        <h2 class="product-title">Fluent Python, 2nd Edition</h2>
+        <div class="price">$54.99</div>
+        <div class="rating">★★★★★ (4.9/5)</div>
+        <span class="category">Advanced</span>
+        <span class="category">Best Practices</span>
+        <p class="description">
+            Take your Python skills to the next level with this comprehensive guide to writing 
+            effective, idiomatic Python code. Covers advanced features and design patterns.
+        </p>
+        <p class="stock">In Stock: 8 units</p>
+    </div>
+
+    <div class="product-card" data-product-id="103">
+        <h2 class="product-title">Automate the Boring Stuff with Python</h2>
+        <div class="price">$34.99</div>
+        <div class="rating">★★★★☆ (4.7/5)</div>
+        <span class="category">Beginner</span>
+        <span class="category">Automation</span>
+        <p class="description">
+            Learn how to use Python to write programs that do in minutes what would take you 
+            hours to do by hand. Perfect for automating daily tasks.
+        </p>
+        <p class="stock low">In Stock: 3 units</p>
+    </div>
+
+    <div class="product-card" data-product-id="104">
+        <h2 class="product-title">Python for Data Analysis, 3rd Edition</h2>
+        <div class="price">$49.99</div>
+        <div class="rating">★★★★★ (4.8/5)</div>
+        <span class="category">Intermediate</span>
+        <span class="category">Data Science</span>
+        <p class="description">
+            Master data manipulation and analysis with pandas, NumPy, and other essential tools. 
+            Essential reading for anyone working with data in Python.
+        </p>
+        <p class="stock">In Stock: 12 units</p>
+    </div>
+
+    <div class="product-card" data-product-id="105">
+        <h2 class="product-title">Flask Web Development, 3rd Edition</h2>
+        <div class="price">$44.99</div>
+        <div class="rating">★★★★☆ (4.6/5)</div>
+        <span class="category">Intermediate</span>
+        <span class="category">Web Development</span>
+        <p class="description">
+            Build robust web applications with Flask and Python. Covers everything from basics 
+            to deployment, including databases, authentication, and REST APIs.
+        </p>
+        <p class="stock">In Stock: 6 units</p>
+    </div>
+</body>
+</html>
